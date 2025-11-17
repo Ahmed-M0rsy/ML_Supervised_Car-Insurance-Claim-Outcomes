@@ -63,17 +63,21 @@ After training and evaluating a logistic regression model for each feature, the 
 
 This indicates that a customer's driving experience is the most significant individual predictor of whether they will make an insurance claim.
 
-## Getting Started
+## Preview
 
-To get a local copy up and running, follow these simple steps.
+### Option 1: Direct Colab Link (Simplest)
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ahmed-M0rsy/ML_Supervised_Car-Insurance-Claim-Outcomes/blob/main/notebook.ipynb)
+
+### Option 2: To get a local copy up and running, follow these simple steps.
 
 1.  Clone the repository:
     ```sh
-    git clone [https://github.com/your_username/your_repository.git](https://github.com/your_username/your_repository.git)
+    git clone https://github.com/Ahmed-M0rsy/ML_Supervised_Car-Insurance-Claim-Outcomes.git
     ```
 2.  Navigate to the project directory:
     ```sh
-    cd your_repository
+    cd ML_Supervised_Car-Insurance-Claim-Outcomes
     ```
 3.  Open the `notebook.ipynb` file in a Jupyter environment to see the full analysis.
 
@@ -82,8 +86,8 @@ To get a local copy up and running, follow these simple steps.
 The following Python libraries are required to run the notebook:
 -   pandas
 -   numpy
--   scikit-learn
+-   statsmodels
 
 You can install them using pip:
 ```sh
-pip install pandas numpy scikit-learn
+pip install pandas numpy statsmodels
